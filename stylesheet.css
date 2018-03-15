@@ -1,7 +1,7 @@
-* {
-    border: 1px solid blue;
-}
 *, *:before, *:after {
     margin: 0;
     padding: 0;
+}
+header {
+    background-image: url("images/banner.jpg");
 }
