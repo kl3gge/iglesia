@@ -5,3 +5,13 @@
 header {
     background-image: url("images/banner.jpg");
 }
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
