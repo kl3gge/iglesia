@@ -1,8 +1,14 @@
 *, *:before, *:after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-#header {
+
+.typography {
+    text-align: center;
+}
+
+#background-pic {
     background-image: url("images/banner.jpg");
     height: 388px;
     background-size: auto 388px;
@@ -25,5 +31,8 @@ li {
 }
 #wrapper {
     max-width: 1366px;
+    margin: 0 auto;
+}
+table {
     margin: 0 auto;
 }
